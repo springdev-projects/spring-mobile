@@ -36,7 +36,7 @@ Spring Mobile is an extension to Spring MVC that aims to simplify the developmen
 
 Spring Mobile is a framework that provides capabilities to detect the type of device making a request to your Spring web site and serve alternative views based on that device. Like all Spring projects, the real power of Spring Mobile is found in how easily it can be extended.
 
-## Features
+## 特性
 
 * A Device resolver abstraction for server-side detection of mobile and tablet devices
 * Site preference management that allows the user to indicate if he or she prefers a "normal", "mobile", or "tablet" experience
@@ -44,11 +44,11 @@ Spring Mobile is a framework that provides capabilities to detect the type of de
 * Device aware view management for organizing and managing different views for specific devices
 
 <span id="quick-start"></span>
-## Quick Start
+## 快速开始
 
 {% include download_widget.md %}
 
-### Device detection
+### 设备检测
 
 Add the following Java-based configuration to enable device detection in a Spring web application:
 
@@ -100,7 +100,7 @@ public class HomeController {
 }
 ```
 
-### Site preference
+### 网站偏好
 
 Add the following Java-based configuration to enable site preference management in a Spring web application:
 
@@ -164,7 +164,7 @@ public class HomeController {
 }
 ```
 
-### Device aware view resolution
+### 设备感知视图分辨率
 
 Add the following Java-based configuration to enable device aware views in a Spring web application. This specifies that Spring Mobile will look for mobile views in `/WEB-INF/views/mobile/` and tablet views in `/WEB-INF/views/tablet/`.
 
@@ -187,11 +187,11 @@ public LiteDeviceDelegatingViewResolver liteDeviceAwareViewResolver() {
 
 {% capture related_resources %}
 
-### Sample Projects
+### 示例项目
 
 * [Spring Mobile Samples](https://github.com/SpringSource/spring-mobile-samples)
 
-### Getting Started Guides
+### 入门指南
 
 * [Detecting a Device]({{site.main_site_url}}/guides/gs/device-detection)
 * [Handling Web Site Preference]({{site.main_site_url}}/guides/gs/handling-site-preference)
